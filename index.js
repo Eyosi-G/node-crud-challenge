@@ -1,7 +1,7 @@
 const express = require('express')
-const personHandler = require('./person-handler')
-const personRepository = require('./person-repository')
-const personService = require('./person-service')
+const personHandler = require('./src/person-handler')
+const personRepository = require('./src/person-repository')
+const personService = require('./src/person-service')
 const app = express()
 
 let persons = [{
